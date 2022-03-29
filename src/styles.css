@@ -1,0 +1,270 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+section{
+
+    background-color: white;
+}
+
+.hero{
+    background-color: #222831;
+    height: 100vh;
+
+    color: white;
+    font-size: 40px;
+}
+
+nav{
+    background-color: #1a1d22;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin-top: 50px;
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+
+
+li{
+    /* width: 200px; */
+    text-decoration: none;
+}
+h1{
+    font-size: 90px;
+    margin: 0;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+.subtext{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button{
+    width:200px;
+    height: 52px;
+    border-radius: 30px;
+    background-color: #00ADB5;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #69bfc4;
+}
+
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080
+}
+.socials{
+    padding-bottom: 200px;
+}
+
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+
+.socialIcons{
+    margin: 20px;
+}
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot{
+    width: 300px;
+    border-radius: 150px;
+}
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px #222831;
+    margin: 10px;
+
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image{
+    margin-top: 25px;
+    width: 225px;
+    border-radius: 25px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: #00ADB5;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.send-text{
+    font-family: 'Mulish', sans-serif;
+
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 50px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+    
+
+    ul{
+        display: none;
+        background-color: #1a1d22;
+        margin: 0px;
+    }
+
+    ul.show{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #1a1d22;
+    }
+
+    .logo{
+        display: none;
+    }
+}
+
+footer{
+    background-color: #222831;
+    font-family: 'Mulish', sans-serif;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    font-family: 'Mulish', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form, hr{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.h2-contact{
+    margin: 10px;
+}
+
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background-color: #00ADB5;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 15px;
+}
+form button:hover{
+    background-color: #69bfc4;
+}
+
+form button:active{
+    background-color: #a9a9a9;
+    color: #808080
+}
+
